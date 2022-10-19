@@ -1,4 +1,5 @@
- function EmailCheck() {
+<script> 
+function EmailCheck() {
             var atTheRateCounter = 0;
             var validEmailList = ["gmail.com", "yahoo.com", "hotmail.com"];
             isThereError = false;
@@ -60,3 +61,4 @@
                 isThereError = true;
             }
         }
+</script>
